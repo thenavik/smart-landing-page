@@ -1,9 +1,10 @@
 import React from "react";
+import XButton from "../core/XButton";
 
 export default function Home() {
   return (
     <div>
-      <h2>dcdvsvd</h2>
+      <XButton name={"Click me"} />
     </div>
   );
 }
