@@ -1,5 +1,5 @@
 import React from "react";
-import { BsCart4 } from "react-icons/bs";
+import XButton from "../../core/XButton";
 import "../../styles/header/header.scss";
 
 export default function Header() {
@@ -32,13 +32,27 @@ export default function Header() {
                 <a href="#">Contact</a>
               </li>
             </ul>
-            <button className="btn-primary">
-              <BsCart4 />
-              Buy Now
-            </button>
+            <XButton name={"Buy Now"} />
           </nav>
         </div>
       </header>
+      <section className="home-area">
+        <div className="xcontainer">
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="home-content">
+                <h1>Best Landing Page For Online Product Marketing</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Donec odio. Quisque volutpat mattis eros. Nullam malesuada
+                  erat ut turpis. Suspendisse urna nibh, viverra non.
+                </p>
+                <XButton name={"Order Now"} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
