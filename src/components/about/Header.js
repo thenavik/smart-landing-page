@@ -47,7 +47,9 @@ export default function Header() {
                   Donec odio. Quisque volutpat mattis eros. Nullam malesuada
                   erat ut turpis. Suspendisse urna nibh, viverra non.
                 </p>
-                <XButton name={"Order Now"} />
+                <div className="mt-4">
+                  <XButton name={"Order Now"} />
+                </div>
               </div>
             </div>
           </div>
