@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineCheckCircle } from "react-icons/ai";
 import "../../styles/about/about.scss";
 
 export default function About() {
@@ -18,21 +19,22 @@ export default function About() {
             </p>
             <ul>
               <li>
-                <i className="icofont-check-circled"></i> Attractive Interface
-                with Many Options
+                <AiOutlineCheckCircle /> Attractive Interface with Many Options
               </li>
               <li>
-                <i className="icofont-check-circled"></i> Live Chat and Instant
-                Notification
+                <AiOutlineCheckCircle /> Live Chat and Instant Notification
               </li>
               <li>
-                <i className="icofont-check-circled"></i> Install App with
-                Unlimited Features
+                <AiOutlineCheckCircle /> Install App with Unlimited Features
               </li>
             </ul>
           </div>
           <div className="about-img">
-            <img src="" className="img-fluid" alt=""></img>
+            <img
+              src="https://themehoster.com/tf/html/tm/buten/demo/assets/images/about-img.jpg"
+              className="img-fluid"
+              alt=""
+            ></img>
           </div>
         </div>
       </div>
