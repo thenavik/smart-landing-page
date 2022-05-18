@@ -1,0 +1,105 @@
+@import "../variables.scss";
+
+.core-feature-area {
+  width: 100%;
+  padding: 90px 0 70px;
+
+  .core-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .core-section-heading {
+      width: 45%;
+      margin: 0 0 60px;
+
+      h2 {
+        text-align: center;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 46px;
+        color: $colorBlue;
+      }
+
+      p {
+        text-align: center;
+        font-size: 14px;
+        color: #555;
+        line-height: 24px;
+        font-weight: 500;
+      }
+    }
+
+    .core-section-body {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+
+      .core-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 20px;
+
+        .core-feat-single {
+          width: 300px;
+          height: 177px;
+          background-color: #fff;
+          padding: 20px 20px 8px;
+          border-radius: 10px;
+          border: 1px solid #eff0f1;
+          box-shadow: 0 5px 15px #e6f0fa;
+
+          h4 {
+            font-weight: 600;
+            margin-bottom: 5px;
+            font-size: 20px;
+            line-height: 30px;
+            color: $colorBlue;
+
+            svg {
+              margin-right: 10px;
+            }
+          }
+          p {
+            font-size: 14px;
+            color: #555;
+            line-height: 24px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .core-img {
+      .animation-jump {
+        position: relative;
+        animation: animation-jump 2s ease-in-out infinite;
+      }
+
+      @keyframes animation-jump {
+        0% {
+          top: 3px;
+        }
+        50% {
+          top: -3px;
+        }
+        100% {
+          top: 3px;
+        }
+      }
+      .core-feat-img {
+        background-image: url(../../assets/img/circle.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        text-align: center;
+
+        img {
+          max-width: 300px;
+        }
+      }
+    }
+  }
+}
