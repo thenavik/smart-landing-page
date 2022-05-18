@@ -1,0 +1,61 @@
+.slider-area {
+  width: 100%;
+  padding: 90px 0 135px;
+  background-image: url(../../assets/img/banner-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .slider-wrapper {
+    .slider-section__heading {
+      width: 45%;
+      margin: 0 auto;
+    }
+
+    .slider-section__body {
+      padding-top: 40px;
+      .testimonial-single {
+        width: 50%;
+        margin: 0 auto;
+        .client-info {
+          .user-avatar {
+            max-width: 80px;
+            border-radius: 50%;
+            margin: 0 auto 10px;
+          }
+
+          h4 {
+            color: #fff;
+            font-weight: 600;
+            margin: 0;
+            font-size: 20px;
+            line-height: 30px;
+          }
+
+          p {
+            font-size: 14px;
+            color: #ddd;
+            line-height: 24px;
+            font-weight: 500;
+          }
+        }
+        .client-comment {
+          p {
+            color: #fff;
+            font-style: italic;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 500;
+          }
+          .icon-star {
+            padding: 20px 0;
+            margin-bottom: 10px;
+            svg {
+              color: #f39c12;
+            }
+          }
+        }
+      }
+    }
+  }
+}
