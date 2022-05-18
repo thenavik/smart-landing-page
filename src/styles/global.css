@@ -24,6 +24,7 @@ li {
 .affix {
   position: fixed;
   background-color: #fff;
+  box-shadow: 0 2px 10px #ccc;
 }
 .affix .navbar .navbar-list .navbar-item a {
   color: #000 !important;
@@ -71,6 +72,29 @@ li {
   line-height: 24px;
   font-weight: 500;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.c-white {
+  color: white;
+}
+
+/* swiper */
+
+.swiper-pagination-bullet-active {
+  width: 20px !important;
+  height: 6px !important;
+  border-radius: 5px !important;
+  background-color: #fff !important;
+}
+.swiper-pagination-bullet {
+  background-color: #fff !important;
+}
+
+/* and swiper */
+
 /* Animation of Smart Watch 'animation-jump' */
 
 .animation-jump {
