@@ -14,6 +14,7 @@ import "../../styles/header/header.scss";
 
 export default function Header() {
   const [affix, setAffix] = useState(false);
+  const [btnType, setBtnType] = useState("btn-primary");
   const menuData = [
     {
       id: 1,
@@ -55,10 +56,12 @@ export default function Header() {
   window.onscroll = function (e) {
     if (window.scrollY > 0) {
       setAffix(true);
+      setBtnType("btn-blue");
     }
     if (affix === true) {
       if (window.scrollY === 0) {
         setAffix(false);
+        setBtnType("btn-primary");
       }
     }
   };
@@ -87,7 +90,7 @@ export default function Header() {
                 );
               })}
             </ul>
-            <XButton name={"Buy Now"} />
+            <XButton type={btnType} name={"Buy Now"} />
           </nav>
         </div>
       </header>
@@ -104,7 +107,7 @@ export default function Header() {
                     erat ut turpis. Suspendisse urna nibh, viverra non.
                   </p>
                   <div className="mt-4">
-                    <XButton name={"Order Now"} />
+                    <XButton type={"btn-primary"} name={"Order Now"} />
                   </div>
                 </div>
               </div>
