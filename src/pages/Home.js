@@ -7,6 +7,7 @@ import CoreFeature from "../components/feature/CoreFeature";
 import WhyChoose from "../components/whychoose/WhyChoose";
 import Slider from "../components/slider/Slider";
 import Newsletter from "../components/newsletter/Newsletter";
+import Faq from "../components/faq/Faq";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <WhyChoose />
       <Newsletter />
       <Slider />
+      <Faq />
     </div>
   );
 }
