@@ -17,14 +17,9 @@ export default function Video() {
             <div className="video-player">
               <div className="pulse1"></div>
               <div className="pulse2"></div>
-              <a
-                className="popup-video"
-                href="https://www.youtube.com/watch?v=EOA1oXpLT0w"
-              >
-                <div className="icon-play">
-                  <AiOutlinePlayCircle />
-                </div>
-              </a>
+              <div className="icon-play">
+                <AiOutlinePlayCircle />
+              </div>
             </div>
           </div>
         </div>

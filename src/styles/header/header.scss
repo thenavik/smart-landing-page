@@ -30,12 +30,17 @@
           padding: 0 15px;
           a {
             color: #fff;
+            transition: all 0.7s ease;
+            &:hover {
+              color: #131a48;
+            }
           }
         }
       }
     }
   }
   .home-area {
+    width: 100%;
     padding-top: 40px;
 
     .home-content {
