@@ -1,41 +1,59 @@
 .header-section {
-    background-image: url(https://themehoster.com/tf/html/tm/buten/demo/assets/images/banner-1.png);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: cover;
-    height: 100vh;
-    .header {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        z-index: 9;
-        transition: all .5s ease-in-out;
-        padding: 10px 0;
-        .navbar {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0.5rem 1rem;
-            img {
-                vertical-align: middle;
-                border-style: none;
-            }
-            .navbar-list {
-                display: flex;
-                margin-left: auto;
-                margin-right: auto;
-                text-align: center;
-                font-weight: 700;
-                font-size: 15px;
-                letter-spacing: 2px;
-                .navbar-item {
-                    padding: 0 15px;
-                    a {
-                        color: #fff;
-                    }
-                }
-            }
+  background-image: url(https://themehoster.com/tf/html/tm/buten/demo/assets/images/banner-1.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  height: 100vh;
+  .header {
+    width: 100%;
+    z-index: 9;
+    transition: all 0.5s ease-in-out;
+    padding: 10px 0;
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 0;
+      img {
+        vertical-align: middle;
+        border-style: none;
+      }
+      .navbar-list {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-weight: 700;
+        font-size: 15px;
+        letter-spacing: 2px;
+        .navbar-item {
+          padding: 0 15px;
+          a {
+            color: #fff;
+          }
         }
+      }
     }
+  }
+  .home-area {
+    width: 100%;
+
+    .home-content {
+      height: 100vh;
+
+      h1 {
+        color: #fff;
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 66px;
+      }
+      p {
+        color: #ddd;
+        margin: 20px 0 10px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 500;
+      }
+    }
+  }
 }
