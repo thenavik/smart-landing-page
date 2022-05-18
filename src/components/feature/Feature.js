@@ -49,7 +49,7 @@ export default function Feature() {
   ];
 
   return (
-    <div className="feature-area">
+    <div className="feature-area" id="features">
       <div className="xcontainer">
         <div className="feature-wrapper">
           <div className="section-feature__heading">

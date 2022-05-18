@@ -4,7 +4,7 @@ import "../../styles/about/about.scss";
 
 export default function About() {
   return (
-    <div className="about-area">
+    <div className="about-area" id="about">
       <div className="xcontainer">
         <div className="about-wrapper">
           <div className="about-content">

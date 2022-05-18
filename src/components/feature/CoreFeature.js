@@ -4,7 +4,7 @@ import "../../styles/feature/corefeature.scss";
 
 export default function CoreFeature() {
   return (
-    <div className="core-feature-area">
+    <div className="core-feature-area" id="reviews">
       <div className="xcontainer">
         <div className="core-wrapper">
           <div class="core-section-heading">

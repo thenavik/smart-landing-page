@@ -28,9 +28,13 @@
         letter-spacing: 2px;
         .navbar-item {
           padding: 0 15px;
+          .active {
+            color: #131a48;
+          }
           a {
             color: #fff;
             transition: all 0.7s ease;
+            cursor: pointer !important;
             &:hover {
               color: #131a48;
             }

@@ -4,7 +4,7 @@ import "../../styles/video/video.scss";
 
 export default function Video() {
   return (
-    <div className="video-area">
+    <div className="video-area" id="product">
       <div className="video-overlay"></div>
       <div className="xcotainer">
         <div className="video-wrapper">
