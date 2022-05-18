@@ -1,0 +1,25 @@
+@import "../variables.scss";
+
+.xicon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px 0 #ccc;
+  background-color: #fff;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $colorBlue;
+  transition: 0.5s ease-in-out;
+
+  svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  &:hover {
+    background-color: #2273f8;
+    color: #fff;
+  }
+}
