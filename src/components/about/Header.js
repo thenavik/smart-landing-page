@@ -57,7 +57,7 @@ export default function Header() {
             <div className="col-lg-6">
               <div className="home-img">
                 <img
-                  className="bounce-1"
+                  className="animation-jump"
                   src="https://themehoster.com/tf/html/tm/buten/demo/assets/images/watch-1.png"
                 />
               </div>
