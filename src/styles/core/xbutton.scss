@@ -17,3 +17,25 @@
         line-height: 1;
         margin: 0 5px;}
 }
+
+.btn-blue {
+    background-color: #2273f8;
+    box-shadow: 0px 2px 6px rgba($color: #2273f8, $alpha: 0.5);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 700;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    &:hover {
+        background-color: #1e60cc;
+        color: #fff;
+    }
+    svg {
+        font-weight: 400;
+        line-height: 1;
+        margin: 0 5px;}
+    
+}
