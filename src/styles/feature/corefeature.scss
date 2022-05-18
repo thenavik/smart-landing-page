@@ -73,22 +73,6 @@
       }
     }
     .core-img {
-      .animation-jump {
-        position: relative;
-        animation: animation-jump 2s ease-in-out infinite;
-      }
-
-      @keyframes animation-jump {
-        0% {
-          top: 3px;
-        }
-        50% {
-          top: -3px;
-        }
-        100% {
-          top: 3px;
-        }
-      }
       .core-feat-img {
         background-image: url(../../assets/img/circle.png);
         background-repeat: no-repeat;
