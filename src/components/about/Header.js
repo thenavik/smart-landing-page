@@ -41,20 +41,25 @@ export default function Header() {
           <div className="row">
             <div className="col-lg-6">
               <div className="home-content">
-                <h1>Best Landing Page For Online Product Marketing</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Donec odio. Quisque volutpat mattis eros. Nullam malesuada
-                  erat ut turpis. Suspendisse urna nibh, viverra non.
-                </p>
-                <div className="mt-4">
-                  <XButton name={"Order Now"} />
+                <div className="content-center">
+                  <h1>Best Landing Page For Online Product Marketing</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Donec odio. Quisque volutpat mattis eros. Nullam malesuada
+                    erat ut turpis. Suspendisse urna nibh, viverra non.
+                  </p>
+                  <div className="mt-4">
+                    <XButton name={"Order Now"} />
+                  </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="home-img">
-                <img src="https://themehoster.com/tf/html/tm/buten/demo/assets/images/watch-1.png" />
+                <img
+                  className="bounce-1"
+                  src="https://themehoster.com/tf/html/tm/buten/demo/assets/images/watch-1.png"
+                />
               </div>
             </div>
           </div>
