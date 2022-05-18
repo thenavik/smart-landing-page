@@ -6,6 +6,7 @@ import Video from "../components/video/Video";
 import CoreFeature from "../components/feature/CoreFeature";
 import WhyChoose from "../components/whychoose/WhyChoose";
 import Slider from "../components/slider/Slider";
+import Newsletter from "../components/newsletter/Newsletter";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Video />
       <CoreFeature />
       <WhyChoose />
+      <Newsletter />
       <Slider />
     </div>
   );
