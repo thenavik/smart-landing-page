@@ -1,36 +1,91 @@
-import React from "react";
+import React, { useState } from "react";
 import XButton from "../../core/XButton";
+import * as Scroll from "react-scroll";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 import "../../styles/header/header.scss";
 
 export default function Header() {
+  const [affix, setAffix] = useState(false);
+  const menuData = [
+    {
+      id: 1,
+      href: "hero",
+      title: "Home",
+    },
+    {
+      id: 2,
+      href: "about",
+      title: "About",
+    },
+    {
+      id: 3,
+      href: "features",
+      title: "Features",
+    },
+    {
+      id: 4,
+      href: "product",
+      title: "Product",
+    },
+    {
+      id: 5,
+      href: "reviews",
+      title: "Reviews",
+    },
+    {
+      id: 5,
+      href: "faq",
+      title: "Faq",
+    },
+    {
+      id: 6,
+      href: "contact",
+      title: "Contact",
+    },
+  ];
+
+  window.onscroll = function (e) {
+    if (window.scrollY > 0) {
+      setAffix(true);
+    }
+    if (affix === true) {
+      if (window.scrollY === 0) {
+        setAffix(false);
+      }
+    }
+  };
+
   return (
-    <div className="header-section">
-      <header className="header">
+    <div className="header-section" id="hero">
+      <header className={affix ? "header affix" : "header"}>
         <div className="xcontainer">
           <nav className="navbar">
             <img src="https://themehoster.com/tf/html/tm/buten/demo/assets/images/logo.png" />
             <ul className="navbar-list">
-              <li className="navbar-item">
-                <a href="#">Home</a>
-              </li>
-              <li className="navbar-item">
-                <a href="#">About</a>
-              </li>
-              <li className="navbar-item">
-                <a href="#">Features</a>
-              </li>
-              <li className="navbar-item">
-                <a href="#">Product</a>
-              </li>
-              <li className="navbar-item">
-                <a href="#">Reviews</a>
-              </li>
-              <li className="navbar-item">
-                <a href="#">Faq</a>
-              </li>
-              <li className="navbar-item">
-                <a href="#">Contact</a>
-              </li>
+              {menuData?.map((el) => {
+                return (
+                  <li className="navbar-item" key={el.id}>
+                    <Link
+                      activeClass="active"
+                      to={el.href}
+                      spy={true}
+                      smooth={true}
+                      offset={-80}
+                      duration={1000}
+                    >
+                      {el.title}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
             <XButton name={"Buy Now"} />
           </nav>

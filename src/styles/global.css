@@ -21,6 +21,19 @@ li {
 .mt-4 {
   margin-top: 40px;
 }
+.affix {
+  position: fixed;
+  background-color: #fff;
+}
+.affix .navbar .navbar-list .navbar-item a {
+  color: #000 !important;
+}
+.affix .navbar .navbar-list .navbar-item a:hover {
+  color: #2273f8 !important;
+}
+.affix .navbar .navbar-list .navbar-item .active {
+  color: #2273f8 !important;
+}
 
 .xcontainer {
   max-width: 100%;
