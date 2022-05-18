@@ -5,7 +5,7 @@ import "../styles/core/xbutton.scss";
 export default function XButton(props) {
   return (
     <>
-      <button className="btn-primary">
+      <button className={props.type}>
         <BsCart4 />
         {props.name}
       </button>
