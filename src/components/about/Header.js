@@ -52,6 +52,11 @@ export default function Header() {
                 </div>
               </div>
             </div>
+            <div className="col-lg-6">
+              <div className="home-img">
+                <img src="https://themehoster.com/tf/html/tm/buten/demo/assets/images/watch-1.png" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
