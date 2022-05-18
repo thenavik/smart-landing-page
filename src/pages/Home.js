@@ -5,6 +5,7 @@ import Header from "../components/about/Header";
 import Video from "../components/video/Video";
 import CoreFeature from "../components/feature/CoreFeature";
 import WhyChoose from "../components/whychoose/WhyChoose";
+import Slider from "../components/slider/Slider";
 import Newsletter from "../components/newsletter/Newsletter";
 import ProductArea from "../components/product/ProductArea";
 
@@ -19,6 +20,7 @@ export default function Home() {
       <WhyChoose />
       <Newsletter />
       <ProductArea />
+      <Slider />
     </div>
   );
 }
