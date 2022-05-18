@@ -27,6 +27,18 @@ li {
   margin-left: auto;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-lg-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
 @media (max-width: 1200px) {
   .xcontainer {
     max-width: 1140px;
