@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { AiOutlinePlayCircle } from "react-icons/ai";
-import { TRUE } from "sass";
 import Xmodal from "../../core/Xmodal";
 import "../../styles/video/video.scss";
 
