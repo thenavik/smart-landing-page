@@ -9,6 +9,7 @@ import Slider from "../components/slider/Slider";
 import Newsletter from "../components/newsletter/Newsletter";
 import Faq from "../components/faq/Faq";
 import ProductArea from "../components/product/ProductArea";
+import Contact from "../components/contact/Contact";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <ProductArea />
       <Slider />
       <Faq />
+      <Contact />
     </div>
   );
 }

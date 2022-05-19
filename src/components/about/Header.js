@@ -1,15 +1,8 @@
 import React, { useState } from "react";
 import XButton from "../../core/XButton";
+import { BsCart4 } from "react-icons/bs";
 import * as Scroll from "react-scroll";
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 import "../../styles/header/header.scss";
 
 export default function Header() {
@@ -90,7 +83,7 @@ export default function Header() {
                 );
               })}
             </ul>
-            <XButton type={btnType} name={"Buy Now"} />
+            <XButton type={btnType} icon={<BsCart4 />} name={"Buy Now"} />
           </nav>
         </div>
       </header>
@@ -107,7 +100,11 @@ export default function Header() {
                     erat ut turpis. Suspendisse urna nibh, viverra non.
                   </p>
                   <div className="mt-4">
-                    <XButton type={"btn-primary"} name={"Order Now"} />
+                    <XButton
+                      type={"btn-primary"}
+                      icon={<BsCart4 />}
+                      name={"Order Now"}
+                    />
                   </div>
                 </div>
               </div>
