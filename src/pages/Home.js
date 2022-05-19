@@ -8,6 +8,7 @@ import WhyChoose from "../components/whychoose/WhyChoose";
 import Slider from "../components/slider/Slider";
 import Newsletter from "../components/newsletter/Newsletter";
 import ProductArea from "../components/product/ProductArea";
+import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Newsletter />
       <ProductArea />
       <Slider />
+      <Footer />
     </div>
   );
 }
