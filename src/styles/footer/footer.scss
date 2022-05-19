@@ -1,0 +1,41 @@
+footer {
+    padding: 65px 0 0;
+    background-color: #1c1c1c;
+    overflow: hidden;
+    .footer-social-icons {
+        text-align: center;
+        h4 {
+            color: #fff;
+            font-weight: 700;
+            margin: 0 0 15px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        ul {
+            li {
+                display: inline-block;
+                a {
+                    display: block;
+                    background-color: #2273f8;
+                    color: #fff;
+                    border-radius: 50%;
+                    width: 45px;
+                    height: 45px;
+                    font-size: 16px;
+                    line-height: 50px;
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+    p {
+        color: #fff;
+        padding: 30px 0 50px;
+        text-align: center;
+        a {
+            color: #2273f8;
+            font-style: italic;
+            font-weight: 700;
+        }
+    }
+}
