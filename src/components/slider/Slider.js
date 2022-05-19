@@ -19,7 +19,7 @@ export default function Slider() {
     {
       id: 1,
       name: "Jovid Smith",
-      marker: "marketer",
+      marker: "Marketer",
       commet:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quas maxime vel alias minima possimus corrupti est voluptatum, iusto excepturi, veniam similique et. Officia fugit voluptatibus.",
       avatar: client1,
@@ -27,8 +27,8 @@ export default function Slider() {
     },
     {
       id: 2,
-      name: "David R",
-      marker: "marketer",
+      name: "David D",
+      marker: "Marketer",
       commet:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quas maxime vel alias minima possimus corrupti est voluptatum, iusto excepturi, veniam similique et. Officia fugit voluptatibus.",
       avatar: client2,
@@ -37,7 +37,7 @@ export default function Slider() {
     {
       id: 3,
       name: "Frank Frudo",
-      marker: "marketer",
+      marker: "Marketer",
       commet:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quas maxime vel alias minima possimus corrupti est voluptatum, iusto excepturi, veniam similique et. Officia fugit voluptatibus.",
       avatar: client1,

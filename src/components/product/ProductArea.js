@@ -1,35 +1,35 @@
 import React from "react";
 import XButton from "../../core/XButton";
 import "../../styles/product/productarea.scss";
+import Watch4 from "../../assets/img/watch-4.png";
+import Watch5 from "../../assets/img/watch-5.png";
+import Watch6 from "../../assets/img/watch-6.png";
+import Watch7 from "../../assets/img/watch-7.png";
 
 export default function ProductArea() {
   const productArray = [
     {
       id: 1,
       title: "Casual",
-      image:
-        "https://themehoster.com/tf/html/tm/buten/demo/assets/images/watch-4.png",
+      image: Watch4,
       cost: "$199",
     },
     {
       id: 2,
       title: "Smart",
-      image:
-        "https://themehoster.com/tf/html/tm/buten/demo/assets/images/watch-5.png",
+      image: Watch5,
       cost: "$279",
     },
     {
       id: 3,
       title: "Glorius",
-      image:
-        "https://themehoster.com/tf/html/tm/buten/demo/assets/images/watch-5.png",
+      image: Watch6,
       cost: "$399",
     },
     {
       id: 4,
       title: "Extra",
-      image:
-        "https://themehoster.com/tf/html/tm/buten/demo/assets/images/watch-7.png",
+      image: Watch7,
       cost: "$220",
     },
   ];

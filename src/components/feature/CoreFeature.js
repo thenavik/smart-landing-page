@@ -1,6 +1,7 @@
 import React from "react";
 import { FaUsers } from "react-icons/fa";
 import "../../styles/feature/corefeature.scss";
+import Watch2 from "../../assets/img/watch-2.png";
 
 export default function CoreFeature() {
   return (
@@ -59,11 +60,7 @@ export default function CoreFeature() {
             </div>
             <div className="core-img">
               <div class="core-feat-img animation-jump">
-                <img
-                  src="https://themehoster.com/tf/html/tm/buten/demo/assets/images/watch-2.png"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src={Watch2} class="img-fluid" alt="" />
               </div>
             </div>
           </div>

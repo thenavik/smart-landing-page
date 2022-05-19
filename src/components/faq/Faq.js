@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MdArrowDropUp, MdArrowDropDown } from "react-icons/md";
 import "../../styles/faq/faq.scss";
+import Watch3 from "../../assets/img/watch-3.png";
 
 export default function Faq() {
   const [activeTab, setActiveTab] = useState();
@@ -88,10 +89,7 @@ export default function Faq() {
               })}
             </div>
             <div className="faq-img animation-jump">
-              <img
-                src="https://themehoster.com/tf/html/tm/buten/demo/assets/images/watch-3.png"
-                alt="image"
-              />
+              <img src={Watch3} alt="image" />
             </div>
           </div>
         </div>
