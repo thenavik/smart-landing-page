@@ -24,6 +24,11 @@ footer {
                     font-size: 16px;
                     line-height: 50px;
                     margin: 0 5px;
+                    transition: all .6s ease;
+                    &:hover {
+                        background-color: #fff;
+                        color: #2273f8;
+                    }
                 }
             }
         }
@@ -36,6 +41,10 @@ footer {
             color: #2273f8;
             font-style: italic;
             font-weight: 700;
+            transition: all .6s ease;
+            &:hover {
+                color: #fff;
+            }
         }
     }
 }
