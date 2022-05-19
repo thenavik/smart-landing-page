@@ -1,0 +1,86 @@
+.contact {
+  padding: 90px 0 85px;
+  background-image: url(../../assets/img/map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #fafafa;
+
+  .contact-wrapper {
+    .contact-section__heading {
+      width: 45%;
+      margin: 0 auto;
+    }
+
+    .contact-body {
+      padding-top: 40px;
+      display: flex;
+
+      .contact-info {
+        width: 30%;
+        padding: 0 0 0 45px;
+
+        .contact-info-single {
+          margin: 0 0 30px;
+          overflow: hidden;
+          display: flex;
+
+          p {
+            font-size: 15px;
+            color: #555;
+            padding-bottom: 1rem;
+          }
+
+          .icon {
+            width: 25%;
+            margin-right: 10px;
+            text-align: center;
+            font-size: 30px;
+            color: #2273f8;
+            border: 1.2px solid #2273f8;
+            border-radius: 4px;
+            width: 55px;
+            height: 55px;
+            display: inline-block;
+            line-height: 55px;
+          }
+        }
+      }
+      .contact-box {
+        width: 70%;
+
+        .box-head {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          &:first-child {
+            .form-group {
+              width: 50%;
+            }
+          }
+        }
+
+        .form-group {
+          margin-bottom: 1rem;
+
+          .form-control {
+            outline: none;
+            height: 50px;
+            border: 1px solid #e6f0fa;
+            font-size: 14px;
+            width: 100%;
+            padding: 0.375rem 0.75rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            border-radius: 0.25rem;
+          }
+          .textarea {
+            height: 200px;
+          }
+        }
+      }
+    }
+  }
+}
