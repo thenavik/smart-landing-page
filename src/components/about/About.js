@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 import "../../styles/about/about.scss";
+import AboutImg from "../../assets/img/about-img.jpg";
 
 export default function About() {
   return (
@@ -30,11 +31,7 @@ export default function About() {
             </ul>
           </div>
           <div className="about-img">
-            <img
-              src="https://themehoster.com/tf/html/tm/buten/demo/assets/images/about-img.jpg"
-              className="img-fluid"
-              alt=""
-            ></img>
+            <img src={AboutImg} className="img-fluid" alt=""></img>
           </div>
         </div>
       </div>

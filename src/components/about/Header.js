@@ -4,6 +4,7 @@ import { BsCart4 } from "react-icons/bs";
 import * as Scroll from "react-scroll";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "../../styles/header/header.scss";
+import Watch1 from "../../assets/img/watch-1.png";
 
 export default function Header() {
   const [affix, setAffix] = useState(false);
@@ -111,10 +112,7 @@ export default function Header() {
             </div>
             <div className="col-lg-6">
               <div className="home-img">
-                <img
-                  className="animation-jump"
-                  src="https://themehoster.com/tf/html/tm/buten/demo/assets/images/watch-1.png"
-                />
+                <img className="animation-jump" src={Watch1} />
               </div>
             </div>
           </div>
