@@ -82,6 +82,10 @@ li {
   text-align: center;
 }
 
+.pr-2 {
+  padding-right: 20px;
+}
+
 .c-white {
   color: white;
 }
