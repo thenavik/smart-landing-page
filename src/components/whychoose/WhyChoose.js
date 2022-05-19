@@ -3,6 +3,7 @@ import "../../styles/whychoose/whychoose.scss";
 import { GiAlliedStar } from "react-icons/gi";
 import { BiSupport } from "react-icons/bi";
 import { RiDonutChartFill } from "react-icons/ri";
+import Watch3 from "../../assets/img/watch-3.png";
 
 export default function WhyChoose() {
   const whyChooseArray = [
@@ -41,10 +42,7 @@ export default function WhyChoose() {
         <div className="why-choose-content row">
           <div className="col-lg-6">
             <div className="why-choose-img">
-              <img
-                className="animation-jump"
-                src="https://themehoster.com/tf/html/tm/buten/demo/assets/images/watch-3.png"
-              />
+              <img className="animation-jump" src={Watch3} />
             </div>
           </div>
           <div className="col-lg-6">
