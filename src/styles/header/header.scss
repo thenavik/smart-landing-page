@@ -157,6 +157,17 @@
       }
     }
   }
+  .home-content {
+    h1 {
+      font-size: 40px !important;
+      line-height: 50px !important;
+    }
+  }
+  .home-img {
+    img {
+      max-width: 350px !important;
+    }
+  }
 }
 
 @media (max-width: 540px) {
@@ -192,4 +203,19 @@
       }
     }
   }
+  .home-content {
+    h1 {
+      font-size: 30px !important;
+      line-height: 40px !important;
+      text-align: center;
+    }
+  }
+  .home-img {
+    display: flex;
+    justify-content: center;
+    img {
+      margin: 0 !important;
+    }
+  }
 }
+

@@ -61,7 +61,7 @@ export default function Header() {
 
   return (
     <div className="header-section" id="hero">
-      <header className={affix ? "header affix" : "header"}>
+      {/* <header className={affix ? "header affix" : "header"}>
         <div className="xcontainer">
           <XMenu
             menuData={menuData}
@@ -71,7 +71,7 @@ export default function Header() {
             btn={<XButton type={btnType} icon={<BsCart4 />} name={"Buy Now"} />}
           />
         </div>
-      </header>
+      </header> */}
       <section className="home-area">
         <div className="xcontainer">
           <div className="row">
