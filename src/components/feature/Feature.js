@@ -11,37 +11,37 @@ import "../../styles/feature/feature.scss";
 export default function Feature() {
   const featuresData = [
     {
-      id: 1,
+      id: 2,
       title: "Attractive Interface",
       text: "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.",
       icon: <FiLayers />,
     },
     {
-      id: 2,
+      id: 3,
       title: "Notification Alert",
       text: "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.",
       icon: <IoIosNotifications />,
     },
     {
-      id: 3,
+      id: 4,
       title: "GPS Tracking",
       text: "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.",
       icon: <TiFlowMerge />,
     },
     {
-      id: 4,
+      id: 5,
       title: "User Live Chat",
       text: "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.",
       icon: <BsFillChatLeftFill />,
     },
     {
-      id: 5,
+      id: 6,
       title: "iOS and Android Apps",
       text: "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.",
       icon: <DiAndroid />,
     },
     {
-      id: 6,
+      id: 7,
       title: "Latest Technology",
       text: "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.",
       icon: <RiCameraLensFill />,
@@ -64,10 +64,17 @@ export default function Feature() {
           <div className="section-feature__body">
             {featuresData?.map((el) => {
               return (
-                <div className="feature-single" key={el.id}>
-                  <XIcon icon={el.icon} />
-                  <h4>{el.title}</h4>
-                  <p>{el.text}</p>
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration={350 * el.id}
+                  data-aos-anchor-placement="center-bottom"
+                  key={el.id}
+                >
+                  <div className="feature-single">
+                    <XIcon icon={el.icon} />
+                    <h4>{el.title}</h4>
+                    <p>{el.text}</p>
+                  </div>
                 </div>
               );
             })}

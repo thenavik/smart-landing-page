@@ -43,8 +43,15 @@ export default function WhyChoose() {
         </div>
         <div className="why-choose-content row">
           <div className="col-lg-6">
-            <div className="why-choose-img">
-              <img className="animation-jump" src={Watch3} />
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-anchor-placement="top-bottom"
+            >
+              <div className="why-choose-img">
+                <img className="animation-jump" src={Watch3} alt="icon smart" />
+              </div>
             </div>
           </div>
           <div className="col-lg-6">

@@ -1,16 +1,13 @@
 import React, { useState } from "react";
-import * as Scroll from "react-scroll";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { CgMenuRightAlt } from "react-icons/cg";
 import "../styles/header/header.scss";
 
 export default function XMenu(props) {
-  const [activeTab, setActiveTab] = useState("");
   const [menu, setMenu] = useState(false);
 
-  const handleClickMenu = (title) => {
+  const handleClickMenu = () => {
     enableScroll();
-    setActiveTab(title);
     setMenu(false);
   };
 
@@ -34,7 +31,7 @@ export default function XMenu(props) {
   return (
     <div className="nav">
       <nav className="navbar">
-        <img src={props.logo} />
+        <img src={props.logo} alt="logo" />
         <ul className="navbar-list">
           {props?.menuData?.map((el) => {
             return (
@@ -66,22 +63,22 @@ export default function XMenu(props) {
 
       <div className={menu ? "mobile-navbar activeMenu" : "mobile-navbar"}>
         <ul className="mobile-navbar__list">
-          {props?.menuData?.map((el) => {
+          {props?.menuData?.map((item) => {
             return (
-              <li className="mobile-navbar__item" key={el.id}>
+              <li className="mobile-navbar__item" key={item.id}>
                 <Link
                   activeClass="active"
-                  to={el.href}
+                  to={item.href}
                   spy={true}
                   smooth={true}
                   offset={-80}
                   duration={1000}
                   onClick={() => {
-                    handleClickMenu(el.title);
+                    handleClickMenu(item.title);
                     enableScroll();
                   }}
                 >
-                  {el.title}
+                  {item.title}
                 </Link>
               </li>
             );

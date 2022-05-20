@@ -35,12 +35,12 @@ export default function Header() {
       title: "Reviews",
     },
     {
-      id: 5,
+      id: 6,
       href: "faq",
       title: "Faq",
     },
     {
-      id: 6,
+      id: 7,
       href: "contact",
       title: "Contact",
     },
@@ -96,7 +96,7 @@ export default function Header() {
             </div>
             <div className="col-lg-6">
               <div className="home-img">
-                <img className="animation-jump" src={Watch1} />
+                <img className="animation-jump" src={Watch1} alt="img fon" />
               </div>
             </div>
           </div>
