@@ -204,15 +204,28 @@
     }
   }
   .home-content {
+    height: auto !important;
+    .content-center {
+      padding: 20px;
+    }
     h1 {
       font-size: 30px !important;
       line-height: 40px !important;
       text-align: center;
     }
+    p {
+      text-align: center;
+    }
+    .mt-4 {
+      margin: 0 !important;
+      display: flex;
+      justify-content: center;
+    }
   }
   .home-img {
     display: flex;
     justify-content: center;
+    padding-top: 50px;
     img {
       margin: 0 !important;
     }

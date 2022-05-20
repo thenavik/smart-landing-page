@@ -155,6 +155,7 @@ li {
   }
   .row {
     flex-direction: column;
+    margin: 0 !important;
   }
   .col-lg-6 {
     flex: 0 0 100%;
