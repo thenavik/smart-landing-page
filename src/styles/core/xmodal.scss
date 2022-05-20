@@ -1,0 +1,49 @@
+.xmodal {
+  position: fixed; /* фиксированное положение */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); /* цвет фона */
+  transition: opacity 400ms ease-in; /* анимация перехода */
+  margin: 0;
+  padding: 0;
+  z-index: 999999999999;
+
+  .xmodal__container {
+    // width: 50%;
+
+    .xmodal__wrapper {
+      position: absolute;
+      content: "";
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 50%;
+      height: 450px;
+      background: #fff;
+      box-shadow: 0 2px 15px #9e9e9d;
+      border-radius: 15px;
+      padding: 20px;
+
+      .xmodal-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        transition: 0.5s ease-in-out;
+
+        svg {
+          color: #000;
+          cursor: pointer;
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}
+
+.hide {
+  display: none !important;
+}
