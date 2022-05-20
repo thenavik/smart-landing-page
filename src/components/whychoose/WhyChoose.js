@@ -32,7 +32,9 @@ export default function WhyChoose() {
       <div className="xcontainer">
         <div className="why-choose-headline">
           <div className="headline-content">
-            <h2 className="main-headline">Why Choose The Product</h2>
+            <h2 className="main-headline">
+              Why Choose The Product For Your Easy Life
+            </h2>
             <p className="main-paragraph">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
               rerum aut! Tempore maiores ipsum sequi porro ratione officia.
