@@ -18,6 +18,10 @@ li {
   list-style: none;
 }
 
+.stop-scrolling {
+  overflow: hidden !important;
+}
+
 .mt-4 {
   margin-top: 40px;
 }
