@@ -138,6 +138,13 @@
     color: #fff;
   }
 }
+@media (max-width: 1024px) {
+  .home-img {
+    img {
+      max-width: 350px !important;
+    }
+  }
+}
 
 @media (max-width: 768px) {
   .header-section {

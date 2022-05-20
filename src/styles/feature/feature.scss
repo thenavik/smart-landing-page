@@ -9,19 +9,6 @@
     .section-feature__heading {
       width: 45%;
       margin: 0 auto;
-      h2 {
-        text-align: center;
-        font-weight: 800;
-        font-size: 36px;
-        color: $colorBlue;
-      }
-      p {
-        text-align: center;
-        font-size: 14px;
-        color: #555;
-        line-height: 24px;
-        font-weight: 500;
-      }
     }
     .section-feature__body {
       padding-top: 50px;
@@ -53,6 +40,38 @@
           font-weight: 500;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .feature-single {
+    width: 300px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .feature-area {
+    padding: 90px 0 0 !important;
+    .section-feature__heading {
+      width: 60% !important;
+    }
+    .feature-single {
+      width: 335px !important;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .feature-wrapper {
+    padding: 10px;
+  }
+  .feature-area {
+    .section-feature__heading {
+      width: 100% !important;
+    }
+    .feature-single {
+      width: 100% !important;
     }
   }
 }

@@ -9,8 +9,10 @@ export default function CoreFeature() {
       <div className="xcontainer">
         <div className="core-wrapper">
           <div class="core-section-heading">
-            <h2>Outstanding Core Features of The Product</h2>
-            <p>
+            <h2 className="main-headline">
+              Outstanding Core Features of The Product
+            </h2>
+            <p className="main-paragraph ">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
               rerum aut! Tempore maiores ipsum sequi porro ratione officia.
             </p>

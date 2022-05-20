@@ -53,8 +53,10 @@ export default function Feature() {
       <div className="xcontainer">
         <div className="feature-wrapper">
           <div className="section-feature__heading">
-            <h2>Many Features are Available in The Watch</h2>
-            <p>
+            <h2 className="main-headline">
+              Many Features are Available in The Watch
+            </h2>
+            <p className="main-paragraph">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
               rerum aut! Tempore maiores ipsum sequi porro ratione officia.
             </p>
