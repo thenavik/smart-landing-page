@@ -3,7 +3,6 @@ import { MdOutlineClose } from "react-icons/md";
 import "../styles/core/xmodal.scss";
 
 export default function Xmodal({ title, visible, hide, modalBody }) {
-  console.log("visible", visible);
   return (
     <div className={visible === false ? "xmodal hide" : "xmodal"}>
       <div className="xmodal__container">

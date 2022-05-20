@@ -48,7 +48,7 @@ export default function Slider() {
   const startData = (star) => {
     const arr = [];
     for (let index = 0; index < star; index++) {
-      arr.push(<AiFillStar />);
+      arr.push(<AiFillStar key={index} />);
     }
     return arr;
   };
