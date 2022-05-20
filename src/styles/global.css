@@ -126,24 +126,31 @@ li {
 /* ----------------------- */
 @media (max-width: 1200px) {
   .xcontainer {
-    max-width: 1140px;
+    width: 1140px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .xcontainer {
+    width: 960px;
   }
 }
 
 @media (max-width: 992px) {
   .xcontainer {
-    max-width: 960px;
+    width: 960px;
   }
 }
 
 @media (max-width: 768px) {
   .xcontainer {
-    max-width: 720px;
+    width: 720px;
   }
 }
 
 @media (max-width: 576px) {
   .xcontainer {
-    max-width: 540px;
+    width: 100%;
+    padding: 0;
   }
 }

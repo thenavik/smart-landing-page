@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <About />
+      {/* <About />
       <Feature />
       <Video />
       <CoreFeature />
@@ -26,7 +26,7 @@ export default function Home() {
       <Slider />
       <Faq />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
