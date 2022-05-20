@@ -78,7 +78,7 @@ export default function XMenu(props) {
                   duration={1000}
                   onClick={() => {
                     handleClickMenu(el.title);
-                    disableScroll();
+                    enableScroll();
                   }}
                 >
                   {el.title}

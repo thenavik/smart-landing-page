@@ -11,8 +11,6 @@
   z-index: 999999999999;
 
   .xmodal__container {
-    // width: 50%;
-
     .xmodal__wrapper {
       position: absolute;
       content: "";
@@ -46,4 +44,10 @@
 
 .hide {
   display: none !important;
+}
+
+@media (max-width: 768px) {
+  .xmodal__wrapper {
+    width: 80% !important;
+  }
 }
