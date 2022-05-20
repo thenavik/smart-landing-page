@@ -35,3 +35,25 @@
         line-height: 40px;
     }
 }
+
+@media (max-width: 768px) {
+    .section-heading{
+        max-width: 50% !important;
+    }
+    .product-wrap {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+}
+@media (max-width: 425px) {
+    .section-heading{
+        max-width: 75% !important;
+    }
+    .product-wrap {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .product {
+        margin: 15px 15px !important;
+    }
+}

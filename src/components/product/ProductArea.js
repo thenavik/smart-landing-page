@@ -5,6 +5,7 @@ import Watch4 from "../../assets/img/watch-4.png";
 import Watch5 from "../../assets/img/watch-5.png";
 import Watch6 from "../../assets/img/watch-6.png";
 import Watch7 from "../../assets/img/watch-7.png";
+import { BsCart4 } from "react-icons/bs";
 
 export default function ProductArea() {
   const productArray = [
@@ -51,12 +52,16 @@ export default function ProductArea() {
           {/* start single product */}
           {productArray.map((el) => {
             return (
-              <div key={el.id} className="col-lg-3">
+              <div key={el.id} className="col-lg-3 product-wrap">
                 <div className="product">
                   <h4>{el.title}</h4>
                   <img src={el.image} />
                   <h2>{el.cost}</h2>
-                  <XButton type={"btn-blue"} name={"Buy Now"} />
+                  <XButton
+                    icon={<BsCart4 />}
+                    type={"btn-blue"}
+                    name={"Buy Now"}
+                  />
                 </div>
               </div>
             );

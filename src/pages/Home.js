@@ -35,11 +35,11 @@ export default function Home() {
       <CoreFeature />
       <WhyChoose />
       <Newsletter />
-      {/* <ProductArea /> */}
+      <ProductArea />
       <Slider />
       <Faq />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
