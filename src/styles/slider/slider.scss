@@ -59,3 +59,21 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .slider-area {
+    .slider-wrapper {
+      .slider-section__heading {
+        width: 60%;
+      }
+      .slider-section__body .testimonial-single {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 540px) {
+  .slider-section__heading {
+    width: 80% !important;
+  }
+}

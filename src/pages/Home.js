@@ -16,17 +16,17 @@ export default function Home() {
   return (
     <div>
       <Header />
-      {/* <About />
+      <About />
       <Feature />
       <Video />
-      <CoreFeature /> */}
+      <CoreFeature />
       <WhyChoose />
       <Newsletter />
-      {/* <ProductArea />
+      {/* <ProductArea /> */}
       <Slider />
       <Faq />
       <Contact />
-      <Footer /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

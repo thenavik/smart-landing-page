@@ -90,3 +90,36 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .faq-section-heading {
+    width: 100% !important;
+  }
+  .tablist-question .card {
+    width: 350px !important;
+  }
+  .faq-section-body .faq-img {
+    width: 38% !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .faq-wrapper {
+    padding: 10px !important;
+  }
+  .faq-section-heading {
+    width: 100% !important;
+  }
+  .tablist-question .card {
+    width: 100% !important;
+    .card-header {
+      padding: 0.65rem 1.25rem !important;
+    }
+  }
+  .faq-section-body {
+    flex-direction: column !important;
+    .faq-img {
+      width: 100% !important;
+    }
+  }
+}

@@ -194,3 +194,17 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .video-area .video-wrapper {
+    width: 100% !important;
+
+    .video-content {
+      padding: 10px !important;
+      h2 {
+        font-size: 26px !important;
+        line-height: 36px !important;
+      }
+    }
+  }
+}
