@@ -4,6 +4,7 @@ import { BsCart4 } from "react-icons/bs";
 import XMenu from "../../core/XMenu";
 import Watch1 from "../../assets/img/watch-1.png";
 import "../../styles/header/header.scss";
+import Logo1 from "../../assets/img/logo.png";
 
 export default function Header() {
   const [affix, setAffix] = useState(false);
@@ -65,9 +66,7 @@ export default function Header() {
         <div className="xcontainer">
           <XMenu
             menuData={menuData}
-            logo={
-              "https://themehoster.com/tf/html/tm/buten/demo/assets/images/logo.png"
-            }
+            logo={Logo1}
             btn={<XButton type={btnType} icon={<BsCart4 />} name={"Buy Now"} />}
           />
         </div>
