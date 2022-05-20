@@ -39,3 +39,11 @@
         margin: 0 5px;}
     
 }
+
+@media (max-width: 768px) {
+    .btn-primary, .btn-blue {
+        padding: 5px 5px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
