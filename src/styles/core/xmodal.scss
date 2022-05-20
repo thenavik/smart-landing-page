@@ -5,9 +5,7 @@
   bottom: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.5); /* цвет фона */
-  opacity: 1; /* по умолчанию модальное окно прозрачно */
-  transition: opacity 200ms ease-in; /* анимация перехода */
-  pointer-events: none; /* элемент невидим для событий мыши */
+  transition: opacity 400ms ease-in; /* анимация перехода */
   margin: 0;
   padding: 0;
   z-index: 999999999999;
@@ -38,9 +36,8 @@
         svg {
           color: #000;
           cursor: pointer;
-          &:hover {
-            color: #2273f8;
-          }
+          width: 25px;
+          height: 25px;
         }
       }
     }
@@ -48,5 +45,5 @@
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
