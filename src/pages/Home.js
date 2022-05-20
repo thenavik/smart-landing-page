@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import About from "../components/about/About";
 import Feature from "../components/feature/Feature";
-import Header from "../components/about/Header";
+import Header from "../components/header/Header";
 import Video from "../components/video/Video";
 import CoreFeature from "../components/feature/CoreFeature";
 import WhyChoose from "../components/whychoose/WhyChoose";
