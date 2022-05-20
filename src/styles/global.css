@@ -18,6 +18,10 @@ li {
   list-style: none;
 }
 
+.stop-scrolling {
+  overflow: hidden !important;
+}
+
 .mt-4 {
   margin-top: 40px;
 }
@@ -152,5 +156,13 @@ li {
   .xcontainer {
     width: 100%;
     padding: 0;
+  }
+  .row {
+    flex-direction: column;
+    margin: 0 !important;
+  }
+  .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }

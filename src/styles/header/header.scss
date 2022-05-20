@@ -4,6 +4,7 @@
   background-position: left bottom;
   background-size: cover;
   height: 100vh;
+  position: relative;
   .header {
     width: 100%;
     z-index: 9;
@@ -11,8 +12,6 @@
     padding: 10px 0;
     .nav {
       width: 100%;
-      overflow: hidden;
-      position: relative;
       transition: 0.5s ease-in-out;
 
       .mobile-navbar {
@@ -21,7 +20,8 @@
         content: "";
         right: -100%;
         width: 100%;
-        height: 105vh;
+        height: 185vh;
+        z-index: 12;
         top: -20px;
         background: rgb(18 53 124 / 76%);
         transition: 1s ease-in-out;
@@ -59,7 +59,7 @@
 
         .mobile-menu__icon {
           display: none;
-          z-index: 12;
+          z-index: 13;
           svg {
             width: 30px;
             height: 30px;
@@ -140,6 +140,9 @@
 }
 
 @media (max-width: 768px) {
+  .header-section {
+    overflow-x: hidden !important;
+  }
   .navbar {
     img {
       width: 90px;
@@ -157,15 +160,22 @@
       }
     }
   }
+  .home-content {
+    h1 {
+      font-size: 40px !important;
+      line-height: 50px !important;
+    }
+  }
+  .home-img {
+    img {
+      max-width: 350px !important;
+    }
+  }
 }
 
 @media (max-width: 540px) {
   .header {
     padding: 0 !important;
-
-    .nav {
-      height: 100vh !important;
-    }
 
     .mobile-navbar {
       display: block !important;
@@ -180,7 +190,7 @@
 
       img {
         width: 100px;
-        z-index: 12;
+        z-index: 13;
       }
 
       .navbar-list {
@@ -190,6 +200,33 @@
       button {
         display: none !important;
       }
+    }
+  }
+  .home-content {
+    height: auto !important;
+    .content-center {
+      padding: 20px;
+    }
+    h1 {
+      font-size: 30px !important;
+      line-height: 40px !important;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    .mt-4 {
+      margin: 0 !important;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .home-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    img {
+      margin: 0 !important;
     }
   }
 }
