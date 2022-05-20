@@ -16,7 +16,6 @@ export default function Video() {
 
   const hide = () => {
     setModal(false);
-    console.log("modal");
   };
 
   return (
@@ -24,6 +23,7 @@ export default function Video() {
       <Xmodal
         visible={modal}
         hide={hide}
+        title="video in youtube"
         modalBody={
           <div>
             <iframe
@@ -31,9 +31,9 @@ export default function Video() {
               height="370px"
               src="https://www.youtube.com/embed/2nBqKwUJ5nU"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         }

@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import XButton from "../../core/XButton";
 import { BsCart4 } from "react-icons/bs";
-import * as Scroll from "react-scroll";
-import { Link, animateScroll as scroll } from "react-scroll";
+import XMenu from "../../core/XMenu";
+
 import "../../styles/header/header.scss";
-import Watch1 from "../../assets/img/watch-1.png";
 
 export default function Header() {
   const [affix, setAffix] = useState(false);
@@ -64,31 +63,16 @@ export default function Header() {
     <div className="header-section" id="hero">
       <header className={affix ? "header affix" : "header"}>
         <div className="xcontainer">
-          <nav className="navbar">
-            <img src="https://themehoster.com/tf/html/tm/buten/demo/assets/images/logo.png" />
-            <ul className="navbar-list">
-              {menuData?.map((el) => {
-                return (
-                  <li className="navbar-item" key={el.id}>
-                    <Link
-                      activeClass="active"
-                      to={el.href}
-                      spy={true}
-                      smooth={true}
-                      offset={-80}
-                      duration={1000}
-                    >
-                      {el.title}
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-            <XButton type={btnType} icon={<BsCart4 />} name={"Buy Now"} />
-          </nav>
+          <XMenu
+            menuData={menuData}
+            logo={
+              "https://themehoster.com/tf/html/tm/buten/demo/assets/images/logo.png"
+            }
+            btn={<XButton type={btnType} icon={<BsCart4 />} name={"Buy Now"} />}
+          />
         </div>
       </header>
-      <section className="home-area">
+      {/* <section className="home-area">
         <div className="xcontainer">
           <div className="row">
             <div className="col-lg-6">
@@ -117,7 +101,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
