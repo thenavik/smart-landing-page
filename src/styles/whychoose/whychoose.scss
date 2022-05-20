@@ -10,6 +10,8 @@
     .why-choose-content {
         padding-top: 30px;
         .why-choose-img {
+            display: flex;
+            justify-content: center;
             img {
                 max-width: 300px;
             }
@@ -48,6 +50,84 @@
                     font-weight: 500;
                     margin-bottom: 1rem;
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .why-choose-headline {
+        .headline-content {
+            margin-bottom: 60px !important;
+        }
+    }
+    .why-choose-img {
+        img {
+            margin-top: 70px;
+        }
+    } 
+    .why-choose-single {
+        margin: 0 0 30px;
+        p {
+            padding-right: 70px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .why-choose-headline {
+        .headline-content {
+            width: 65% !important;
+            margin-bottom: 60px !important;
+        }
+    }
+    .why-choose-single {
+        margin: 0 0 30px;
+        p {
+            padding-right: 60px;
+        }
+        .icon {
+            svg {
+                width: 65px !important;
+                height: 65px !important;
+                line-height: 65px !important;
+                padding: 0 15px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .why-choose-headline {
+        .headline-content {
+            width: 100% !important;
+            margin-bottom: 45px !important;
+            h2 {
+                font-size: 26px !important;
+                line-height: 36px !important;
+            }
+            p {
+                padding: 0px 35px;
+            }
+        }
+    }
+    .why-choose-content {
+        padding: 0 !important;
+        .why-choose-img {
+            img {
+                max-width: 270px !important;
+            }
+        }
+    }
+    .why-choose-single {
+        margin: 0 0 30px;
+        padding: 0px 0px 0px 10px;
+        .icon {
+            svg {
+                width: 65px !important;
+                height: 65px !important;
+                line-height: 65px !important;
+                padding: 0 15px !important;
             }
         }
     }
