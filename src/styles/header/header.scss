@@ -149,6 +149,11 @@
 @media (max-width: 768px) {
   .header-section {
     overflow-x: hidden !important;
+    overflow-y: clip !important;
+    height: auto !important;
+  }
+  .home-area {
+    padding-top: 0 !important;
   }
   .navbar {
     img {
@@ -231,7 +236,7 @@
   .home-img {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 20px !important;
     img {
       margin: 0 !important;
     }
