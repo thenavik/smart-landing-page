@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import XButton from "../../core/XButton";
 import { BsCart4 } from "react-icons/bs";
 import XMenu from "../../core/XMenu";
-
+import Watch1 from "../../assets/img/watch-1.png";
 import "../../styles/header/header.scss";
 
 export default function Header() {
@@ -72,7 +72,7 @@ export default function Header() {
           />
         </div>
       </header>
-      {/* <section className="home-area">
+      <section className="home-area">
         <div className="xcontainer">
           <div className="row">
             <div className="col-lg-6">
@@ -101,7 +101,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 }
