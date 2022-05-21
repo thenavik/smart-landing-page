@@ -26,12 +26,10 @@ export default function Contact() {
                   <FaPhoneAlt />
                 </div>
                 <div className="content">
-                  <p>
-                    <div className="">
-                      <p>+09 12345 67890</p>
-                      <p> +02 12345 67890</p>
-                    </div>
-                  </p>
+                  <div className="">
+                    <p>+09 12345 67890</p>
+                    <p> +02 12345 67890</p>
+                  </div>
                 </div>
               </div>
               <div className="contact-info-single">
@@ -39,12 +37,10 @@ export default function Contact() {
                   <MdAttachEmail />
                 </div>
                 <div className="content">
-                  <p>
-                    <div className="">
-                      <p>support@email.com</p>
-                      <p>info@email.com</p>
-                    </div>
-                  </p>
+                  <div className="">
+                    <p>support@email.com</p>
+                    <p>info@email.com</p>
+                  </div>
                 </div>
               </div>
               <div className="contact-info-single">
@@ -52,12 +48,10 @@ export default function Contact() {
                   <FaMapMarkerAlt />
                 </div>
                 <div className="content">
-                  <p>
-                    <div className="">
-                      <p>67/A Lake View</p>
-                      <p>New York, USA</p>
-                    </div>
-                  </p>
+                  <div>
+                    <p>67/A Lake View</p>
+                    <p>New York, USA</p>
+                  </div>
                 </div>
               </div>
             </div>

@@ -23,13 +23,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div
-        data-aos="fade-up"
-        data-aos-duration="600"
-        data-aos-anchor-placement="center-bottom"
-      >
-        <About />
-      </div>
+      <About />
       <Feature />
       <Video />
       <CoreFeature />

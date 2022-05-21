@@ -55,7 +55,7 @@ export default function ProductArea() {
               <div key={el.id} className="col-lg-3 product-wrap">
                 <div className="product">
                   <h4>{el.title}</h4>
-                  <img src={el.image} />
+                  <img src={el.image} alt="Product image" />
                   <h2>{el.cost}</h2>
                   <XButton
                     icon={<BsCart4 />}
