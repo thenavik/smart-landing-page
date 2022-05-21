@@ -35,7 +35,8 @@ export default function () {
             </ul>
           </div>
           <p>
-            Copy © {year}. All Rights Reserved By <a href="#">Repost Space</a>
+            Copy © {year}. All Rights Reserved By{" "}
+            <a href="https://repost.ofolio.ru/">Repost Space</a>
           </p>
         </div>
       </footer>
