@@ -22,6 +22,40 @@ Watch is simple and clean design Anyone can use this template showcase any produ
 Watch uses a number of open source projects to work properly:
 
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Swiper](https://swiperjs.com/) - The most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior
+- [React Scroll](https://www.npmjs.com/package/react-scroll) - A scroll component for React.js
+- [AOS](https://michalsnik.github.io/aos/) - Animate On Scroll library using CSS3
+- [React Router](https://v5.reactrouter.com/web/guides/quick-start) - A lightweight, fully-featured routing library for the React JavaScript library
+
+# How to:
+
+###_install_
+
+For _yarn_:
+
+```sh
+yarn install
+```
+
+For _npm_:
+
+```sh
+npm install
+```
+
+###_start_
+
+For _yarn_:
+
+```sh
+yarn start
+```
+
+For _npm_:
+
+```sh
+npm run start
+```
 
 ## Usage of components
 
@@ -59,18 +93,6 @@ title: type="String" // {example: title="video"}
 visible: type="Boolean" // {example: visible="false"}
 hide: type="Function" //
 modalBody: write here the content for inside the modal window, you can pass the iframe from YouTube
-```
-
-```sh
-swiper: Swiper is the most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior.
-```
-
-```sh
-react-scroll: A scroll component for React.js
-```
-
-```sh
-AOS: AOS - Animate On Scroll library using CSS3
 ```
 
 **Welcome, Thank You!**
