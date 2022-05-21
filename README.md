@@ -41,19 +41,36 @@ type: "btn-blue" // Blue button type
 XIcon:
 
 ```sh
-icon: {<UseANyReactIcon} // Import and use any react icon you want
+icon: {<UseANyReactIcon/>} // Import and use any react icon you want
 ```
 
 XMenu:
 
 ```sh
-jovid
+menuData: type="Array" , propps accept only an array // {example: arr['home', 'about']}
+logo: type="String" // {example: 'example.com/img/logo.png'}
+btn: XButton // example: {<XButton type={"btn-blue"} icon={<BsCart4 />} name={"Buy Now"} />}
 ```
 
 XModal:
 
 ```sh
-jovid
+title: type="String" // {example: title="video"}
+visible: type="Boolean" // {example: visible="false"}
+hide: type="Function" //
+modalBody: write here the content for inside the modal window, you can pass the iframe from YouTube
+```
+
+```sh
+swiper: Swiper is the most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior.
+```
+
+```sh
+react-scroll: A scroll component for React.js
+```
+
+```sh
+AOS: AOS - Animate On Scroll library using CSS3
 ```
 
 **Welcome, Thank You!**
