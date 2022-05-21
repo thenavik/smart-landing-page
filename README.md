@@ -70,6 +70,8 @@ XButton:
 ```sh
 type: "btn-primary" // Primary button type
 type: "btn-blue" // Blue button type
+icon: {<UseANyReactIcon/>} // Import and use any react icon you want
+name: "String" // Any name of button
 ```
 
 XIcon:
@@ -81,18 +83,17 @@ icon: {<UseANyReactIcon/>} // Import and use any react icon you want
 XMenu:
 
 ```sh
-menuData: type="Array" , propps accept only an array // {example: arr['home', 'about']}
-logo: type="String" // {example: 'example.com/img/logo.png'}
-btn: XButton // example: {<XButton type={"btn-blue"} icon={<BsCart4 />} name={"Buy Now"} />}
+type="Array" // propps accept only an array  {example: arr['home', 'about']}
+logo="String" // {example: 'example.com/img/logo.png'}
 ```
 
 XModal:
 
 ```sh
-title: type="String" // {example: title="video"}
-visible: type="Boolean" // {example: visible="false"}
-hide: type="Function" //
-modalBody: write here the content for inside the modal window, you can pass the iframe from YouTube
+title: "String" // {example: title="video"}
+visible: "Boolean" // {example: visible="false"}
+hide: "Function" //
+modalBody: // write here the content for inside the modal window, you can pass the iframe from YouTube
 ```
 
 **Welcome, Thank You!**
