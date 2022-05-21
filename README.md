@@ -29,7 +29,7 @@ Watch uses a number of open source projects to work properly:
 
 # How to:
 
-###_install_
+### _install_
 
 For _yarn_:
 
@@ -43,7 +43,7 @@ For _npm_:
 npm install
 ```
 
-###_start_
+### _start_
 
 For _yarn_:
 
