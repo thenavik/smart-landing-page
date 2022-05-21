@@ -12,25 +12,25 @@ export default function ProductArea() {
     {
       id: 1,
       title: "Casual",
-      image: Watch4,
+      watch: Watch4,
       cost: "$199",
     },
     {
       id: 2,
       title: "Smart",
-      image: Watch5,
+      watch: Watch5,
       cost: "$279",
     },
     {
       id: 3,
       title: "Glorius",
-      image: Watch6,
+      watch: Watch6,
       cost: "$399",
     },
     {
       id: 4,
       title: "Extra",
-      image: Watch7,
+      watch: Watch7,
       cost: "$220",
     },
   ];
@@ -55,7 +55,7 @@ export default function ProductArea() {
               <div key={el.id} className="col-lg-3 product-wrap">
                 <div className="product">
                   <h4>{el.title}</h4>
-                  <img src={el.image} alt="Product image" />
+                  <img src={el.watch} alt="Smart Watch" />
                   <h2>{el.cost}</h2>
                   <XButton
                     icon={<BsCart4 />}
