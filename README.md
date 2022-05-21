@@ -2,7 +2,7 @@
 
 ###### _Watch is a creative, elegant, modern, clean and Responsive HTML5/CSS3 App landing page. Compatible with Desktop,Laptop,table,mobile or any device. Watch is simple and clean design Anyone can use this template showcase any product and customize as his wishes. All files are clearly organised we believe it will be easy to use and edit them. Any one can customize this template as his wishes._
 
-![Preview](https://github.com/thenavik/simple-frame-animation/blob/master/src\assets\img\Preview.png)
+![Preview](https://github.com/thenavik/smart-landing-page/blob/master/src/assets/img/Preview.png)
 
 Watch is a creative, elegant, modern, clean and Responsive HTML5/CSS3 App landing page. Compatible with:
 
