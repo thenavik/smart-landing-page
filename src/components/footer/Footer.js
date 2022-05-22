@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/footer/footer.scss";
 import { FaFacebookF, FaTwitter, FaPinterestP } from "react-icons/fa";
 import { AiOutlineGooglePlus } from "react-icons/ai";
@@ -36,9 +37,9 @@ export default function () {
           </div>
           <p>
             Copy © {year}. All Rights Reserved By{" "}
-            <a href="https://repost.ofolio.ru/" target="_blank">
+            <Link to="https://repost.ofolio.ru/" target="_blank">
               Repost Space
-            </a>
+            </Link>
           </p>
         </div>
       </footer>

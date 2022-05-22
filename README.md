@@ -96,4 +96,14 @@ hide: "Function" //
 modalBody: // write here the content for inside the modal window, you can pass the iframe from YouTube
 ```
 
+## Used fonts
+
+Google Fonts/Raleway :
+
+```sh
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+```
+
 **Welcome, Thank You!**
